@@ -12,9 +12,9 @@ public class UtilidadesRegistroS {
         try {
             Registry registro = LocateRegistry.getRegistry(numPuertoNS);
             String[] vector = registro.list();
-            System.out.println("nombres de objetos remotos registrados ");
+            System.out.println("Nombres de objetos remotos registrados ");
             for (String IDObjetoRemoto : vector) {
-                System.out.println("nombre : " + IDObjetoRemoto);
+                System.out.println("Nombre : " + IDObjetoRemoto);
             }
             System.out.println("El rmiRegistry se ha obtenido y se encuentra escuchando en el puerto: " + numPuertoNS);
         } catch (RemoteException e) {
