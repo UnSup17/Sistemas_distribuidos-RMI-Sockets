@@ -1,15 +1,15 @@
 package dto;
 
 public class DatosSensorDTO {
-    private double frecuenciaCardiaca;
-    private double tensionArterial;
-    private double frecuenciaRespiratoria;
+    private int frecuenciaCardiaca;
+    private int tensionArterial;
+    private int frecuenciaRespiratoria;
     private double temperatura;
-    private double oxigeno;
+    private int oxigeno;
 
     public DatosSensorDTO() { }
-    public DatosSensorDTO(double frecuenciaCardiaca, double tensionArterial, double frecuenciaRespiratoria,
-            double temperatura, double oxigeno) {
+    public DatosSensorDTO(int frecuenciaCardiaca, int tensionArterial, int frecuenciaRespiratoria,
+            double temperatura, int oxigeno) {
         this.frecuenciaCardiaca = frecuenciaCardiaca;
         this.tensionArterial = tensionArterial;
         this.frecuenciaRespiratoria = frecuenciaRespiratoria;
@@ -17,27 +17,27 @@ public class DatosSensorDTO {
         this.oxigeno = oxigeno;
     }
 
-    public double getFrecuenciaCardiaca() {
+    public int getFrecuenciaCardiaca() {
         return frecuenciaCardiaca;
     }
 
-    public void setFrecuenciaCardiaca(double frecuenciaCardiaca) {
+    public void setFrecuenciaCardiaca(int frecuenciaCardiaca) {
         this.frecuenciaCardiaca = frecuenciaCardiaca;
     }
 
-    public double getTensionArterial() {
+    public int getTensionArterial() {
         return tensionArterial;
     }
 
-    public void setTensionArterial(double tensionArterial) {
+    public void setTensionArterial(int tensionArterial) {
         this.tensionArterial = tensionArterial;
     }
 
-    public double getFrecuenciaRespiratoria() {
+    public int getFrecuenciaRespiratoria() {
         return frecuenciaRespiratoria;
     }
 
-    public void setFrecuenciaRespiratoria(double frecuenciaRespiratoria) {
+    public void setFrecuenciaRespiratoria(int frecuenciaRespiratoria) {
         this.frecuenciaRespiratoria = frecuenciaRespiratoria;
     }
 
@@ -49,11 +49,11 @@ public class DatosSensorDTO {
         this.temperatura = temperatura;
     }
 
-    public double getOxigeno() {
+    public int getOxigeno() {
         return oxigeno;
     }
 
-    public void setOxigeno(double oxigeno) {
+    public void setOxigeno(int oxigeno) {
         this.oxigeno = oxigeno;
     }
 }
