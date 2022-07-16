@@ -1,6 +1,0 @@
-{
-    "java.project.sourcePaths": [
-        "ServidorAlertas/src",
-        "ClienteSensores/src/cliente"
-    ]
-}
