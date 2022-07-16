@@ -1,0 +1,6 @@
+co\edu\unicauca\cliente\controladores\NotificacionCllbckImpl.class
+co\edu\unicauca\cliente\utilidades\UtilidadesConsola.class
+co\edu\unicauca\servidor\controladores\ControladorRegistroClienteNotificacionInt.class
+co\edu\unicauca\cliente\utilidades\UtilidadesRegistroC.class
+co\edu\unicauca\cliente\servicios\ClienteDeObjetos.class
+co\edu\unicauca\cliente\controladores\NotificacionCllbckInt.class
